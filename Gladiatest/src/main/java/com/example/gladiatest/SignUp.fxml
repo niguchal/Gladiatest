@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFD700;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gladiatest.ControllerForSignUp">
+    <children>
+        <AnchorPane layoutY="64.0" prefHeight="338.0" prefWidth="600.0" style="-fx-background-color: #c3383c;">
+            <children>
+                <TextField fx:id="NameField" layoutX="26.0" layoutY="80.0" prefHeight="26.0" prefWidth="266.0" promptText="Имя" />
+                <Text fill="GOLD" layoutX="133.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация" wrappingWidth="319.90283203125">
+                    <font>
+                        <Font name="Century Gothic" size="49.0" />
+                    </font>
+                </Text>
+                <Button fx:id="OpenButtonREg" layoutX="193.0" layoutY="224.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="199.0" style="-fx-background-color: #FFD700;" text="Зарегестрироваться" textFill="#c3383c">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <PasswordField fx:id="PasswordSignUpButton" layoutX="319.0" layoutY="130.0" prefHeight="26.0" prefWidth="266.0" promptText="Пароль" />
+            <TextField fx:id="FNameField" layoutX="319.0" layoutY="80.0" prefHeight="26.0" prefWidth="266.0" promptText="Фамилия" />
+            <TextField fx:id="loginSignUpButton2" layoutX="26.0" layoutY="130.0" prefHeight="26.0" prefWidth="266.0" promptText="Логин" />
+            <CheckBox fx:id="MenChek" layoutX="166.0" layoutY="169.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="119.0" text="Мужчина" />
+            <CheckBox fx:id="WomenCheck" layoutX="319.0" layoutY="169.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="119.0" text="Женщина" />
+            </children>
+        </AnchorPane>
+        <Text fill="#c3383c" layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GladiaTest" wrappingWidth="253.5028076171875">
+            <font>
+                <Font name="Century Gothic" size="49.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
